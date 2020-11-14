@@ -1,0 +1,624 @@
+
+body{
+	margin: 0;
+	background-color: #f1f1f1;
+	font-family: monospace;
+}
+
+.datos1{
+	background-color: #000000f2;
+	color: grey;
+}
+
+.contDatos{
+	text-align: center;
+}
+
+.contDatos p{
+	display: inline-block;
+	font-size: 11px;
+}
+
+.contDatos span{
+	margin-left: 100px;
+}
+.inicio{
+
+	background: url('../img/persona3.jpg');
+	height: 632px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+
+.inicioHeder{
+	display: inline-flex;
+    /*text-align: center;*/
+    color: white;
+    margin: auto;
+}
+
+.inicioHeder li{
+	margin-left: 25px;
+}
+
+.inicioHeder img{
+	margin-right: 100px;
+	height: 100px;
+}
+
+.datosPrincipal{
+	position: absolute;
+	left: 135px;
+    bottom: 125px;
+}
+
+.datosPrincipal h2,h3{
+	margin: 0;
+	text-align: right;
+}
+
+.datosPrincipal h4{
+	margin: 10px 0 0 0;
+    text-align: right;
+}
+
+#ani{
+	margin: 0;
+}
+
+.datosPrincipal button{
+	margin-top: 10px;
+	float: right;
+	border-radius: 15PX;
+    padding: 10px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    font-size: 16px;
+    opacity: .9;
+}
+
+.datosPrincipal button:hover{
+	opacity: 1;
+	zoom: 1.1;
+}
+
+.experiencias{
+	text-align: center;
+	padding: 50px 100px;
+}
+
+.experiencias h3{
+	text-align: center;
+}
+
+.experiencias span{
+	color: #FF9800;
+}
+
+.contenedorP{
+	display: inline-flex;
+	margin-top: 60px;
+}
+
+.izquierdaP{
+	text-align: right;
+}
+
+.derechaP{
+	text-align: left;
+}
+
+.izquierdaPimg img{
+	height: 35px;
+	margin: 0px 10px;
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.derechaPimg img{
+	height: 35px;
+	margin: 0px 10px;
+	border-radius: 50%;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.medioP img{
+
+	height: 270px;
+	margin: 0px 40px;
+}
+
+.star{
+	padding: 32px 20%;
+	background-color: #FF9800;
+	color: white;
+}
+
+.izquierdaStar{
+	max-width: 60%;
+}
+
+.derechaStar{
+	line-height: 7;
+	margin-left: 25%;
+}
+
+.star button {
+	margin-top: 30px;
+    float: right;
+    border-radius: 15PX;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    opacity: .9;
+}
+
+.star button:hover {
+
+	opacity: 1;
+	zoom: 1.1;
+}
+
+.nuestrasClases{
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+
+.nuestrasClases h3{
+	text-align: center;
+}
+.nuestrasClases img{
+	height: 200px;
+}
+
+.imgtablas{
+	margin:12px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+}
+
+.overimg{
+		background-color: rgba(0, 0, 0, 0.6);
+		width: 87%;
+		height: 58%;
+		opacity: 0;
+		top: 0px;
+		position: absolute;
+		padding: 20px;
+		transition: opacity .5s;
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color:#ffffff;
+}
+
+.overimg:hover {
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+.palabrasEntrenadores{
+	width: 100%;
+	position: relative;
+}
+
+.imgParalax1{
+	height: 600px;
+    background-image: url('../img/imgparalax1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	
+}
+
+.palabrasEntrenadores:before{
+
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #FF9800;
+	position: absolute;
+	opacity: .4;
+}
+
+.contenidoPalabras{
+	position: relative;
+	padding: 5% 25%;
+}
+
+.contenidoPalabras p{
+	font-size: x-large;
+	font-weight: 900;
+}
+
+.tablaTiempos{
+	margin-top: 8%;
+	margin-bottom: 5%;
+	text-align: center;
+	color: #757575;
+}
+
+.abdomens{
+	background-color: #796c10cc;
+	color: white;
+	opacity: .8;
+}
+
+.gluteoss{
+	background-color: #af4c4cad;
+	color: white;
+	opacity: .8;
+}
+
+.biceps{
+	background-color: #1d3654;
+	color: white;
+	opacity: .8;
+}
+
+.triceps{
+	background-color: #ff9800ad;
+	color: white;
+	opacity: .8;
+}
+
+.triceps:hover{
+	opacity: 1;
+}
+
+.biceps:hover{
+	opacity: 1;
+}
+
+.gluteoss:hover{
+	opacity: 1;
+}
+
+.abdomens:hover{
+	opacity: 1;
+}
+
+.vacioTabla{
+
+	background-color: white;
+	padding: 30px 0px;
+}
+
+.tablaTiempos div{
+	    display: flow-root;
+	    margin: 2px;
+	    padding: 10px;
+	    border-radius: 15px;
+}
+
+.tablaTiempos td{
+	background-color: white;
+	border-radius: 22px;
+}
+
+.tablaTiempos span {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.imgOrigen {
+
+    line-height: 21;
+
+}
+
+.imgOrigen img{
+
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 80px;
+}
+
+.nombreCreador{
+	margin-right: 80px;
+	text-align: end;
+	line-height: 4;
+}
+
+.origenes{
+	background-color: #FF9800;
+	padding: 50px 13%;
+	color: white;
+}
+
+.contenidoOrigenes{
+	display: inline-flex;
+	border: 2px solid white;
+	padding: 50px 80px;
+}
+
+/*.contenidoOrigenes div{
+
+	margin-right: 95px;
+}*/
+
+.redesOrigen{
+
+	margin: 0px;
+	display: inline-flex;
+}
+
+.redesOrigen img{
+	width: 22px;
+    margin-left: 10px;
+    opacity: .6;
+}
+
+.contenedorLomejor{
+	display: inline-flex;
+    padding: 10px 14%;
+    margin: 55px 0px;
+}
+
+.contenedorLomejor img{
+	height: 210px;
+    margin-right: 90px;
+}
+
+.divestadisticas{
+    background-color: black;
+    text-align: center;
+    margin-top: 130px;
+    padding: 50px 40px;
+}
+
+.contEstadisticas {
+    display: inline-flex;
+}
+
+.centroEstadisticas {
+    margin: 0px 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.centroEstadisticas img{
+
+	width: 32px;
+}
+
+
+.contenedorLomejor button{
+	margin-top: 10px;
+    float: right;
+    border-radius: 15PX;
+    padding: 10px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    font-size: 16px;
+    opacity: .9;
+}
+
+.contenedorLomejor button:hover{
+	opacity: 1;
+	zoom: 1.1;
+}
+
+.imgHerramientas{
+	margin:0px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+}
+
+button{
+	margin-top: 30px;
+    /*float: right;*/
+    border-radius: 15PX;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    opacity: .9;
+}
+
+button:hover {
+	opacity: 1;
+	zoom: 1.1;
+}
+
+ul{
+	line-height: 1.5;
+}
+
+.ovimg{
+		background-color: rgba(0, 0, 0, 0.6);
+		width: 87%;
+		height: 58%;
+		opacity: 0;
+		top: 0px;
+		position: absolute;
+		padding: 20px;
+		transition: opacity .5s;
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color:#ffffff;
+}
+.ovimg:hover {
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+.PrincipalesHerramientas{
+
+	margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #757575;
+}
+
+.PrincipalesHerramientas img{
+	height: 200px;
+}
+
+.PrincipalesHerramientas h3{
+	text-align: center;
+}
+
+.contactogym{
+	display: inline-flex;
+    text-align: center;
+    padding: 0px 22%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+
+    height: 350px;
+    background-image: url(../img/herramientas1.jpg);
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+
+.contenidoC{
+
+	margin-top: 5%;
+	margin-left: 50px;
+	text-align: left;
+	color: white;
+}
+
+.proximoseventos{
+	text-align: center;
+}
+
+.proximoseventos div{
+	margin-bottom: 25px;
+}
+
+
+.izquierdaProximos{
+
+	margin-right: 20px;
+}
+
+
+.derechaProximos{
+
+	margin-left: 20px;
+}
+
+.proximoseventos span{
+
+	border-radius: 50%;
+    border: 5px solid white;
+    padding: 17px;
+}
+
+.fechas{
+    padding: 17px;
+}
+
+.eventoMedio{
+
+	margin-top: 30px;
+}
+
+.barraAbajo{
+	background-color: #15818c;
+    padding: 10px 30px;
+    text-align: center;
+    color: white;
+}
+
+.barraAbajo img{
+
+	margin: 5px 50px;
+
+}
+.contenedorAbajo{
+	display: inline-flex;
+}
+
+.finalc{
+	width: 100%;
+	position: relative;
+}
+
+.finalimg{
+	height: 500px;
+    background-image: url('../img/imgfinal.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	
+}
+
+
+
+
+.finalc:before{
+
+	/*content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #FF9800;
+	position: absolute;
+	opacity: .4;*/
+}
+
+.contenidopp{
+	position: relative;
+	padding: 5% 25%;
+}
+
+.contenidopp p{
+	font-size: medium;
+	font-weight: 100;
+	margin-top: 64px;
+}
+
+.contenidopp span{
+	font-weight: 900;
+    font-size: 15px;
+}
+
+.redesOrigenFinal{
+	margin-top: 50px; 
+	/*padding: 5px;*/
+}
+
+.redesOrigenFinal img{
+	height: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	opacity: .6;
+}
+
+.redesOrigenFinal img:hover {
+	opacity: 1;
+}
+
+.redesOrigen img:hover {
+	opacity: 1;
+}
